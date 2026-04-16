@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Spotify Clone</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+  <div class="sidebar">
+    <h2 class="logo">Spotify</h2>
+    <ul>
+      <li>🏠 Home</li>
+      <li>🔍 Search</li>
+      <li>📚 Library</li>
+    </ul>
+  </div>
+
+  <div class="main">
+    <h1>Good Evening</h1>
+
+    <div class="cards">
+      <div class="card" data-index="0">
+        <img src="images/cover1.jpg">
+        <p>Song 1</p>
+      </div>
+
+      <div class="card" data-index="1">
+        <img src="images/cover2.jpg">
+        <p>Song 2</p>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div class="player">
+
+  <div class="song-info">
+    <img id="cover" src="images/cover1.jpg">
+    <div>
+      <p id="songName">Song 1</p>
+      <span id="artist">Artist</span>
+    </div>
+  </div>
+
+  <div class="controls">
+    <button id="prev">⏮️</button>
+    <button id="play">▶️</button>
+    <button id="next">⏭️</button>
+  </div>
+
+  <div class="extras">
+    <input type="range" id="progress" value="0">
+    <input type="range" id="volume" value="100">
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
